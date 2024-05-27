@@ -1,0 +1,135 @@
+.noshi {
+    margin-top: 120px;
+}
+
+.noshi__continer {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+
+    h2 {
+        font-weight: 600;
+        font-family: 'Exo 2';
+        font-size: 48px;
+        line-height: 60px;
+        color: #363738;
+    }
+
+    .atom {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        .bank{
+            border-left: 1px solid rgba(215, 215, 221, 0.8);
+        }
+        .rusatom {
+            padding: 0px 65px 0px 65px;
+            img {
+                display: block;
+                margin-bottom: 32px;
+            }
+
+            b {
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 27px;
+                color: #363738;
+                font-family: 'Exo 2';
+                text-align: center;
+                margin-bottom: 14px;
+                
+            }
+
+            p {
+                font-weight: 400;
+                font-family: 'PT Sans';
+                font-size: 14px;
+                line-height: 21px;
+                color: #6B6B6C;
+            }
+        }
+    }
+}
+@media(max-width:770px){
+    .noshi {
+        margin-top: 88px;
+    }
+    
+    .noshi__continer {
+        display: flex;
+        flex-direction: row;
+        gap: 90px;
+        position: relative;
+        h2 {
+          
+            font-size: 44px;
+            line-height: 55px;
+            position: absolute;
+        }
+    
+        .atom {
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            .bank{
+                border-left: 1px solid rgba(215, 215, 221, 0.8);
+            }
+            .rusatom {
+                padding: 0px 65px 0px 65px;
+                img {
+                    display: block;
+                    margin-bottom: 32px;
+                }
+    
+                b {
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 27px;
+                    color: #363738;
+                    font-family: 'Exo 2';
+                    text-align: center;
+                    margin-bottom: 14px;
+                    
+                }
+    
+                p {
+                    font-weight: 400;
+                    font-family: 'PT Sans';
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #6B6B6C;
+                }
+            }
+        }
+    }
+}
+@media(max-width:375px){
+    .noshi{
+        margin-top: 64px;
+    }
+    .noshi__continer{
+        flex: none;
+        .atom{
+            display: none;
+        }
+        .rusatomm{
+            display: block;
+            display: flex;
+            flex-direction: row;
+            gap: 25px;
+            flex-wrap: wrap-reverse;
+            
+            
+            .rusatom{
+            padding: 0px;
+            border: none;
+            max-width: 160px;
+            img{
+                margin-bottom: 20px;
+            }
+
+            }
+        }
+    }
+}

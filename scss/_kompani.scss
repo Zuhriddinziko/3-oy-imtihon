@@ -1,0 +1,166 @@
+.kompani {
+    margin-top: 130px;
+
+}
+
+.kompani__continer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    h2 {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 60px;
+        color: #363738;
+        margin-bottom: 72px;
+    }
+
+    .ivan {
+        display: none;
+    }
+
+    .anton {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 30px;
+
+        .makarov {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 605px;
+            border-left: 51px solid #0B7572;
+            border-radius: 10px;
+            padding: 32px 0px 40px 32px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.149);
+
+            .anto {
+                margin-left: 40px;
+                img{
+                    display: inline-block;
+                    margin-left: 15px;
+                }
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 20px;
+                    font-family: 'Exo 2';
+                    line-height: 24px;
+                    color: #363738;
+                    margin-bottom: 12px;
+
+                }
+
+                p {
+                    font-weight: 400;
+                    font-family: 'PT Sans';
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #6B6B6C;
+                }
+
+                i {
+                    font-display: 2px;
+                    line-height: 13px;
+                    border-bottom: 3px solid #FFCE50;
+                    color: #FFFFFF;
+                    display: inline-block;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:770px){
+    .kompani{
+        margin-top: 100px;
+    }
+    .kompani__continer{
+        h2{
+            
+            font-size: 44px;
+            line-height: 55px;
+            margin-bottom: 56px;
+        }
+        .alina{
+            display: none;
+        }
+        .anton{
+
+            .makarov{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                img{
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+}
+@media (max-width:375px){
+    .kompani{
+        margin-top: 35px;
+    }
+    .kompani__continer{
+        .anton{
+          
+            display: none;
+        }
+        .ivan{
+            display: block;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .makarov {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                max-width: 335px;
+                border-left: 20px solid #0B7572;
+                border-radius: 10px;
+                padding: 24px 0px 20px 16px;
+                box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.149);
+    
+                .anto {
+                    margin-left: 16px;
+                    img{
+                        display: inline-block;
+                        margin-left: 8px;
+                    }
+    
+                    h3 {
+                        font-weight: 600;
+                        font-size: 18px;
+                        font-family: 'Exo 2';
+                        line-height: 22px;
+                        color: #363738;
+                        margin-bottom: 10px;
+    
+                    }
+    
+                    p {
+                        font-weight: 400;
+                        font-family: 'PT Sans';
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #6B6B6C;
+                    }
+    
+                    i {
+                        font-display: 2px;
+                        line-height: 13px;
+                        border-bottom: 3px solid #FFCE50;
+                        color: #FFFFFF;
+                        display: inline-block;
+                        margin-bottom: 15px;
+                        margin-right: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+}

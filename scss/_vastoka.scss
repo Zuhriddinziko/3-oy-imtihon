@@ -1,0 +1,174 @@
+.vastoka{
+    padding-top: 109px;
+}
+.vastoka_continer{
+   
+    display: flex;
+    flex-direction: row;
+
+   .postavshik1{
+    h2{
+        font-weight: 600;
+        font-size: 52px;
+        line-height: 65px;
+        color: #363738;
+        font-family: 'Exo 2';
+        margin-bottom: 40px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 40px;
+        font-family: 'PT Sans';
+        color: #6B6B6C;
+
+    }
+    a{
+        font-weight: 700;
+        font-size: 16px;
+        font-family: 'PT Sans';
+        line-height: 24px;
+        color: #363738;
+        border-bottom: 3px solid #FFCE50;
+        text-decoration: none;
+    }
+   }
+   .postavshik2{
+    .kompyuter{
+        width: 635px;
+        height: 505px;
+    }
+    .planshet{
+        display: none;
+    }
+    .phone{
+        display: none;
+    }
+   }
+
+
+}
+@media (max-width:770px){
+    .vastoka{
+        padding-top: 117px;
+    }
+    .vastoka_continer{
+       position: relative;
+        display: flex;
+        flex-direction: column;
+    
+       .postavshik1{
+        h2{
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 55px;
+            text-align: center;
+            color: #363738;
+            font-family: 'Exo 2';
+            margin-bottom: 49px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            margin-bottom: 44px;
+            font-family: 'PT Sans';
+            color: #6B6B6C;
+    
+        }
+        a{  
+            font-weight: 700;
+            font-size: 16px;
+            font-family: 'PT Sans';
+            line-height: 24px;
+            color: #363738;
+            text-align: center;
+            border-bottom: 3px solid #FFCE50;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            
+        }
+       }
+       .postavshik2{
+        .kompyuter{
+            display: none;
+           
+        }
+        .planshet{
+            padding-top: 73px;
+            display: block;
+            max-width: 690px;
+            height: 314px;
+        }
+        .phone{
+            display: none;
+        }
+       }
+    
+    
+    }
+}
+@media (max-width: 375px){
+    .vastoka{
+        padding-top: 75px;
+    }
+    .vastoka_continer{
+   
+        display: flex;
+        flex-direction: column;
+    
+       .postavshik1{
+        padding: 0px;
+        h2{
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            text-align: left;
+            color: #363738;
+            font-family: 'Exo 2';
+            margin-bottom: 32px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 32px;
+            font-family: 'PT Sans';
+            text-align: left;
+            color: #6B6B6C;
+            
+        }
+        a{ 
+             display: inline-block;
+            font-weight: 700;
+            font-size: 15px;
+            font-family: 'PT Sans';
+            line-height: 22px;
+            color: #363738;
+            
+            border-bottom: 3px solid #FFCE50;
+            
+        }
+       }
+       .postavshik2{
+        .kompyuter{
+            display: none;
+           
+        }
+        .planshet{
+          display: none;
+        }
+        .phone{
+            padding-top: 40px;
+            display: block;
+            max-width: 345px;
+            height: 253px;
+        }
+       }
+    
+    
+    }
+}

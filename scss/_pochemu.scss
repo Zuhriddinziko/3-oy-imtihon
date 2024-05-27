@@ -1,0 +1,135 @@
+.pochemu {
+  margin-top: 130px;
+}
+.pochemu__continer {
+  .pochemu_title {
+    font-weight: 600;
+    font-family: "Exo 2";
+    font-size: 48px;
+    line-height: 60px;
+    color: #363738;
+    margin-bottom: 72px;
+  }
+  .adres{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .kontact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+    .fone {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 36px;
+      width: 248px;
+
+      .tele {
+        p {
+          font-weight: 400;
+          font-family: "PT Sans";
+          font-size: 14px;
+          line-height: 21px;
+          color: #6b6b6c;
+        }
+        b {
+          font-weight: 600;
+          font-family: "Exo 2";
+          font-size: 20px;
+          line-height: 24px;
+          color: #363738;
+        }
+      }
+    }
+  }
+  .inn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+    max-width:  794px;
+    background-color: #F9F9FB;
+    .kpp {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 1px solid #E9EAF2;
+        display: inline-block;
+        width: 674px;
+        text-align: justify;
+      p {
+        font-weight: 400;
+        font-family: "PT Sans";
+        font-size: 16px;
+        line-height: 20px;
+        color: #6b6b6c;
+      }
+      b {
+        font-weight: 600;
+        font-family: "Exo 2";
+        font-size: 16px;
+        line-height: 20px;
+        color: #363738;
+      }
+    }
+  }
+}
+@media (max-width:770px){
+    .pochemu__continer{
+        .pochemu_title{
+            display: none;
+        }
+        .adres{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+            .inn{
+                max-width: 690px;
+            }
+        }
+    }
+
+}
+@media (max-width:375px){
+    .pochemu__continer{
+        .pochemu_title{
+            display: block;
+            font-weight: 600;
+            font-size: 18px;
+            font-family: 'Exo 2';
+            line-height: 22px;
+            color: #363738;
+            margin-bottom: 10px;
+        }
+        .adres{
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+            .inn{
+                display: none;
+                padding: 10px;
+                max-width: 345px;
+                .kpp{
+                    padding: 24px;
+                }
+                p {
+                 
+                    font-size: 12px;
+                    line-height: 18px;
+                    
+                  }
+                  b {
+                 
+                    font-size: 11px;
+                    line-height: 18px;
+                    
+                  }
+            }
+        }
+    }
+}

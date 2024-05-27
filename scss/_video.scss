@@ -1,0 +1,66 @@
+.video{
+    margin-top: 50px;
+}
+.video__continer{
+    width: 1245px;
+    padding: 300px 620px;
+    height: 667px;
+    background-image: url(../images/kompimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .planshet{
+        display: none;
+
+    }
+    .foneimg{
+        display: none;
+    }
+    .kompyuter{
+        max-width: 1245px;
+        max-height: 667px;
+        position: relative;
+    }
+   .video-play{
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    z-index: 2;
+    .play{
+
+        width: 37px;
+        height: 36px;
+        text-align: center;
+        
+     
+        
+    }
+   }
+}
+@media(max-width:770px){
+    .video__continer{
+        background-image: none;
+        padding: 0px;
+        .planshet{
+            display: block;
+            max-width: 650px;
+        }
+        .video-play{
+            display: none;
+        }
+    }
+}
+@media(max-width:375px){
+    .video__continer{
+        height: 210px;
+        .planshet{
+            display: none;
+        }
+        .foneimg{
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+
+@import './vastoka';
+@import './poisk';
+@import './nam';
+@import './lorem';
+@import './raboti';
+@import './klent';
+@import './etapi';
+@import './noshi';
+@import './kompani';
+@import './pochemu';
+@import './video';
+@import './logo';
+ 
+
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'PT Sans';
+    font-family: 'Exo 2';
+
+}
+.continer{
+    max-width: 1240px;
+    width: 100%;
+    margin:  0 auto;
+}
+@media (max-width:770px) {
+    .continer{
+        max-width: 690px;
+        width: 100%;
+        margin:  0 auto;
+    }
+    
+
+}
+@media (max-width:375px){
+    .continer{
+        max-width: 345px;
+        width: 100%;
+        margin:  0 auto;
+    }
+    
+}

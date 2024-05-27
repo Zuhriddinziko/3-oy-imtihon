@@ -1,0 +1,146 @@
+.logo{
+    background-color: #0B7572;
+    margin-bottom: 100px;
+    .fonefooter{
+        display: none;
+    }
+ p{
+    color: #FFFFFF; font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+font-family: 'Exo 2';
+text-align: center;
+padding-bottom: 30px;
+ }
+}
+.logo__continer{
+    display: flex;
+    flex-direction: row;
+    padding-top: 59px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    gap: 130px;
+    img{
+        cursor: pointer;
+    }
+    .katalog{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        button{
+            width: 271px;
+            height: 42px;
+            background-color: #FF9619;
+            border: none;
+            color: #FFFFFF;
+            border-radius: 2px;
+            cursor: pointer;
+            img{
+                display: inline-block;
+                padding-left: 5px;
+            }
+        }
+        .ijtimoiy{
+            img{
+                display: inline-block;
+                padding-left: 5px;
+            }
+        }
+    }
+    a{  
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+    font-family: 'Exo 2';
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+}
+@media(max-width:770px)
+{ .logo{
+    .fonefooter{
+        display: none;
+    }
+}
+    .logo__continer{
+        gap: 50px;
+        .logoimg{
+            width: 93px;
+            height: 46px;
+            cursor: pointer;
+        }
+        .katalog{
+            a{
+                font-size: 8px;
+                line-height: 12px;
+            }
+            button{
+                width: 143px;
+                height: 21px;
+                font-size: 6px;
+                line-height: 9px;
+               cursor: pointer;
+            }
+        }
+    }
+}
+@media(max-width:375px){
+    .logo{
+        p{
+            font-size: 10px;
+            line-height: 15px;
+            max-width: 161px;
+        }
+        .fonefooter{
+            display: block;
+            p{
+                font-size: 10px;
+                line-height: 15px;
+                max-width: 161px;
+            }
+            button{
+                margin-bottom: 15px;
+                margin-top: 20px;
+                width: 294px;
+                height: 44px;
+                background-color: #FF9619;
+                border: none;
+                color: #FFFFFF;
+                border-radius: 2px;
+                cursor: pointer;
+                img{
+                    display: inline-block;
+                    padding-left: 5px;
+                }
+            }
+            .footer-fone{
+                display: flex;
+                flex-direction: row;
+                gap: 40px;
+              
+                .ijtimoiy{
+                    img{
+                        width: 10px;
+                        height: 10px;
+                    }
+                }
+                .katalog{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                }
+            }
+            a{  
+                font-weight: 400;
+                font-size: 8px;
+                line-height: 12px;
+            font-family: 'Exo 2';
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .logo__continer{
+        display: none;
+    }
+}
