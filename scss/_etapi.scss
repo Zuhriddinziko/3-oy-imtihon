@@ -49,7 +49,60 @@
         }
     }
 }
+@media (max-width:1100px ) {
+    .etapi {
+        margin-top: 88px;
+    }
 
+    .etapi__continer {
+        h2 {
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 55px;
+            font-family: 'Exo 2';
+            color: #363738;
+            margin-bottom: 48px;
+
+        }
+        .dastavka{
+        padding: 35px 65px;
+        margin-left: 5px;
+            img{
+                display: block;
+            }
+        }
+    }
+}
+@media (max-width:992px ) {
+    .etapi {
+        margin-top: 88px;
+    }
+
+    .etapi__continer {
+        h2 {
+            font-weight: 600;
+            font-size: 44px;
+            line-height: 55px;
+            font-family: 'Exo 2';
+            color: #363738;
+            margin-bottom: 48px;
+
+        }
+        .dastavka{
+        padding: 30px 60px;
+        margin-left: 5px;
+            img{
+                display: block;
+            }
+            
+                p{
+                    span{
+                        display: none;
+                    }
+                }
+        }
+    }
+}
 @media (max-width:770px ) {
     .etapi {
         margin-top: 88px;
@@ -66,11 +119,68 @@
 
         }
         .dastavka{
-        padding: 40px 85px;
+            p{
+                span{
+                    display: none;
+                }
+            }
+        padding: 20px 45px;
         margin-left: 5px;
             img{
                 display: none;
             }
+        }
+    }
+}
+@media (max-width:594px ) {
+    .etapi {
+        margin-top: 64px;
+    }
+
+    .etapi__continer {
+        h2 {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 35px;
+            font-family: 'Exo 2';
+            color: #363738;
+            margin-bottom: 30px;
+
+        }
+        .dastavka{
+        padding: 24px 24px 32px 45px;
+        margin-left: 5px;
+            img{
+                display: none;
+            }
+            
+        .eget {
+            padding: 0px;
+            b {
+                font-weight: 600;
+                font-family: 'Exo 2';
+                font-size: 18px;
+                display: inline-block;
+                line-height: 22px;
+                margin-bottom: 15px;
+
+            }
+
+            p {
+                font-family: 'PT Sans';
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 22px;
+                color: #6B6B6C;
+                span{
+                    display: none;
+                }
+            }
+
+            i {
+              display: none;
+            }
+        }
         }
     }
 }

@@ -35,9 +35,13 @@ padding-bottom: 30px;
             color: #FFFFFF;
             border-radius: 2px;
             cursor: pointer;
+            transition: all 0.5s;
             img{
                 display: inline-block;
                 padding-left: 5px;
+            }
+            &:hover{
+                background-color: #854f0d;
             }
         }
         .ijtimoiy{
@@ -54,6 +58,43 @@ padding-bottom: 30px;
     font-family: 'Exo 2';
         text-decoration: none;
         color: #FFFFFF;
+    }
+}
+@media(max-width:1100px){
+    .logo__continer{
+        gap: 100px;
+    }
+}
+@media(max-width:992px)
+{ .logo{
+    .fonefooter{
+        display: none;
+    }
+}
+    .logo__continer{
+        gap: 70px;
+        .logoimg{
+            width: 93px;
+            height: 46px;
+            cursor: pointer;
+        }
+        .katalog{
+            a{
+                font-size: 12px;
+                line-height: 16px;
+            }
+            button{
+                width: 150px;
+                height: 29px;
+                font-size: 8px;
+                line-height: 13px;
+                transition: all 5s;
+               cursor: pointer;
+               &:hover{
+                background-color: #854f0d;
+            }
+            }
+        }
     }
 }
 @media(max-width:770px)
@@ -80,9 +121,74 @@ padding-bottom: 30px;
                 font-size: 6px;
                 line-height: 9px;
                cursor: pointer;
+
             }
         }
     }
+}
+@media (max-width:592px) {
+    .logo{
+        p{
+            font-size: 12px;
+            line-height: 17px;
+            max-width: 180px;
+            align-items: center;
+        }
+        .fonefooter{
+            display: block;
+            padding: 20px;
+            p{
+                font-size: 12px;
+                line-height: 17px;
+                max-width: 180px;
+            }
+            button{
+                margin-bottom: 19px;
+                margin-top: 25px;
+                width: 310px;
+                height: 44px;
+                background-color: #FF9619;
+                border: none;
+                color: #FFFFFF;
+                border-radius: 2px;
+                cursor: pointer;
+                img{
+                    display: inline-block;
+                    padding-left: 5px;
+                }
+            }
+            .footer-fone{
+                display: flex;
+                flex-direction: row;
+                gap: 140px;
+              
+                .ijtimoiy{
+                    img{
+                        width: 13px;
+                        height: 13px;
+                    }
+                }
+                .katalog{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 25px;
+                }
+            }
+            a{  
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 15px;
+                font-family: 'Exo 2';
+                text-decoration: none;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .logo__continer{
+        display: none;
+    }
+
+    
 }
 @media(max-width:375px){
     .logo{
@@ -90,9 +196,11 @@ padding-bottom: 30px;
             font-size: 10px;
             line-height: 15px;
             max-width: 161px;
+            align-items: center;
         }
         .fonefooter{
             display: block;
+            padding: 20px;
             p{
                 font-size: 10px;
                 line-height: 15px;
@@ -116,7 +224,7 @@ padding-bottom: 30px;
             .footer-fone{
                 display: flex;
                 flex-direction: row;
-                gap: 40px;
+                gap: 100px;
               
                 .ijtimoiy{
                     img{
@@ -134,7 +242,7 @@ padding-bottom: 30px;
                 font-weight: 400;
                 font-size: 8px;
                 line-height: 12px;
-            font-family: 'Exo 2';
+                font-family: 'Exo 2';
                 text-decoration: none;
                 color: #FFFFFF;
             }

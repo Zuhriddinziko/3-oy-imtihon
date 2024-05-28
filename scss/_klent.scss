@@ -86,6 +86,28 @@
 
     }
 }
+@media (max-width:1100px){
+    .klent__continer{
+        .phone{
+            display: none;
+        }
+        background-color: #0B7572;
+        padding: 64px 42px 64px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        .klentt{
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+        font-family: 'Exo 2';
+        color: #FFFFFF;
+        max-width: 328px;
+        }
+        
+
+}
+}
 @media (max-width:770px) {
     .klent__continer{
         .phone{
@@ -107,6 +129,80 @@
         
 
 }
+}
+@media (max-width:592px) {
+    .klent__continer{
+        padding: 32px 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        .klentt{
+          font-weight: 600;
+          font-size: 28px;
+          line-height: 35px;
+          font-family: 'Exo 2';
+          color: #FFFFFF;
+          max-width: 345px;
+      }
+      .pdv{
+          display: none;
+      }
+      .phone{
+          display: block;
+          background-color: #FFFFFF;
+          padding: 24px 16px;
+          border-radius: 4px;
+          img{
+              max-width: 79px;
+              max-height: 43px;
+              padding-bottom: 0px;
+              margin-bottom: 20px;
+          }
+          h4{
+              font-family: 'Exo 2';
+              font-weight: 600;
+              font-size: 15px;
+              line-height: 22px;
+              color: #FFFFFF;
+              background-color: #0B7572;
+              padding: 5px 15px;
+              margin-bottom: 15px;
+          }
+          .motorimg{
+              
+              padding-bottom: 10px;
+              border-bottom: 1px solid #D7D7DD;
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              gap: 16px;
+              img{
+                  padding: 0px;
+                  margin-bottom: 0px;
+              }
+              p{  
+                  max-width: 169px;
+                  font-weight: 400;
+                  font-family: 'PT Sans';
+                  font-size: 14px;
+                  line-height: 18px;
+                  color: #6B6B6C;
+              }
+          }
+          .zavod{
+              padding-bottom: 10px;
+              border-bottom: 1px solid #D7D7DD;
+              b{
+                  font-weight: 600;
+                  font-size: 14px;
+                  line-height: 19px;
+                  color: #363738;
+              }
+          }
+
+      }
+  }
+
 }
 @media (max-width:375px) {
     .klent__continer{

@@ -52,6 +52,8 @@
     gap: 44px;
     max-width:  794px;
     background-color: #F9F9FB;
+    padding: 40px;
+    padding-top: 0px;
     .kpp {
         display: flex;
         flex-direction: row;
@@ -73,11 +75,12 @@
         font-size: 16px;
         line-height: 20px;
         color: #363738;
+        width: 50px;
       }
     }
   }
 }
-@media (max-width:770px){
+@media (max-width:992px){
     .pochemu__continer{
         .pochemu_title{
             display: none;
@@ -86,7 +89,7 @@
             display: flex;
             flex-direction: column;
             align-items: start;
-            gap: 20px;
+            gap: 30px;
             .inn{
                 max-width: 690px;
             }
@@ -94,7 +97,24 @@
     }
 
 }
-@media (max-width:375px){
+@media (max-width:770px){
+  .pochemu__continer{
+      .pochemu_title{
+          display: none;
+      }
+      .adres{
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          gap: 30px;
+          .inn{
+              max-width: 690px;
+          }
+      }
+  }
+
+}
+@media (max-width:594px){
     .pochemu__continer{
         .pochemu_title{
             display: block;
@@ -106,30 +126,50 @@
             margin-bottom: 10px;
         }
         .adres{
-            display: flex;
-            flex-direction: column;
-            align-items: start;
-            gap: 20px;
+          
             .inn{
                 display: none;
-                padding: 10px;
-                max-width: 345px;
-                .kpp{
-                    padding: 24px;
-                }
-                p {
-                 
-                    font-size: 12px;
-                    line-height: 18px;
-                    
-                  }
-                  b {
-                 
-                    font-size: 11px;
-                    line-height: 18px;
-                    
-                  }
+               
             }
         }
     }
+}
+@media (max-width:375px){
+  .pochemu__continer{
+      .pochemu_title{
+          display: block;
+          font-weight: 600;
+          font-size: 18px;
+          font-family: 'Exo 2';
+          line-height: 22px;
+          color: #363738;
+          margin-bottom: 10px;
+      }
+      .adres{
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          gap: 20px;
+          .inn{
+              display: none;
+              padding: 10px;
+              max-width: 345px;
+              .kpp{
+                  padding: 24px;
+              }
+              p {
+               
+                  font-size: 12px;
+                  line-height: 18px;
+                  
+                }
+                b {
+               
+                  font-size: 11px;
+                  line-height: 18px;
+                  
+                }
+          }
+      }
+  }
 }
